@@ -1,0 +1,229 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+}
+.page__background {
+    background-color: #ececec;
+}
+.turnoSeccion {
+    font-size: 60px;
+    float: left;
+    display: block;
+    margin-left: 1vh;
+    margin-top: 0.3vh;
+    font-family: "Roboto", sans-serif;
+    padding-top: 0.2vh;
+}
+.tituloSeccion {
+    float: left;
+    display: block;
+    margin-bottom: 0 !important;
+    margin-top: 2vh !important;
+    font-size: 32px !important;
+}
+.pedir {
+    width: 100%;
+    display: block;
+    font-family: "Roboto", sans-serif;
+}
+.button--material {
+    background-color: #489a5d !important;
+    color: white;
+    border-radius: 12px !important;
+    margin-top: 5vh !important;
+}
+.card__content {
+    width: 100%;
+    color: #328194;
+}
+.material-icons {
+    float: left;
+    font-size: 26px !important;
+    margin-top: -2vh;
+}
+.datosSeccion {
+    margin-left: 15vh;
+    margin-top: -2vh;
+}
+.datosSeccion p {
+    float: left;
+    font-size: 18px;
+    margin-top: -2vh;
+    font-family: "Roboto", sans-serif;
+}
+.miTurno {
+    color: #328194 !important;
+    font-size: 32px;
+    display: block;
+    float: left;
+    margin-top: 2vh;
+}
+.cancelar {
+    margin-top: 2vh;
+    margin-left: 5vh;
+    padding: 10px 14px 10px 14px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+.contenedorCancelar {
+    display: inline-block !important;
+}
+.contenedorTurno {
+    margin-left: 15vh !important;
+}
+.contenedorTurno p {
+    font-size: 32px;
+}
+.numeroPedido {
+    font-size: 96px;
+    display: inline-block;
+    float: left;
+}
+.tuTurno {
+    font-size: 32px !important;
+}
+.titYfav {
+    background-size: cover;
+    height: 20%;
+}
+.titYfav h1 {
+    margin-top: 0 !important;
+    padding-top: 5vh;
+}
+.cadena {
+    font-size: 32px !important;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500 !important;
+    padding-left: 2vh !important;
+    color: white;
+    text-shadow: 1px 1px 20px #000000;
+}
+#nombreSupermercado {
+    padding-top: 3vh;
+}
+.nombre {
+    margin-top: -3vh !important;
+    margin-bottom: -2vh !important;
+    padding-left: 2vh !important;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-weight: 400 !important;
+}
+.volverQR {
+    padding-top: 3vh;
+    padding-left: 2vh;
+    color: white;
+    text-shadow: 1px 1px 20px #000000;
+}
+.volverQR2 {
+    padding-top: 3vh;
+    padding-left: 2vh;
+    color: white;
+}
+#btnHacerFavorito {
+    float: right;
+    padding-right: 3vh;
+    color: white;
+}
+#btnBorrarFavorito {
+    float: right;
+    padding-right: 3vh;
+    color: white;
+}
+.headerFavoritos {
+    height: 20%;
+    background: -webkit-linear-gradient(top, rgba(116,191,136,1) 0%, rgba(72,154,92,1) 100%);
+}
+#txtFavoritos {
+    margin-top: 0 !important;
+    color: white;
+    text-align: left;
+    padding-left: 2.5vh;
+    padding-top: 9vh;
+    font-size: 38px;
+}
+#listaFavoritos img {
+    height: 100%;
+}
+#listaFavoritos .card {
+    padding: 0 !important;
+    height: 15%;
+}
+.tamano {
+    height: 100%;
+    width: 30%;
+    overflow: hidden;
+    float: left;
+    display: block;
+}
+.ir {
+    float: right;
+    margin-right: 5%;
+    margin-top: -9vh;
+    font-size: 46px !important;
+    color: #328194;
+}
+.nombreFav {
+    margin-top: -2vh !important;
+    color: #328194;
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    margin-left: 33% !important;
+}
+.cadenaFav {
+    padding-top: 4vh !important;
+    color: #328194;
+    font-size: 22px !important;
+    font-weight: 500 !important;
+    margin-left: 33% !important;
+}
+#logoTardo {
+    padding-top: 0 !important;
+    height: 24vh;
+    display: block;
+    text-align: center;
+    margin-bottom: 3vh;
+}
+.centrar {
+    margin-left: 15vw;
+    margin-right: 15vw;
+    padding: 42px !important;
+}
+.inici {
+    width: 100%;
+    text-align: center;
+}
+.button--large--cta {
+    background-color: #74BF88;
+}
+#btnQR {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 80px !important;
+}
+#QueRe{
+    margin-bottom: 5vh;
+    background-color: #489a5d;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 90px;
+    width: 90px;
+}
+#btnIngresar {
+    margin-top: 2vh !important;
+}
+#btnFavoritos {
+    margin-bottom: 3vh;
+}
+.inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}

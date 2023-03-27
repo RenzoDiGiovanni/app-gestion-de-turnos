@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "uy.edu.ort.grupo.siguiente"
+        versionCode = "10"
+        version     = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Siguiente!</name>
+
+    <description>
+      Una app ideal para supermercados, donde se pueden incluir todas las secciones donde es necesario pedir un número,
+      dentro de ella podrás sacar un número y agregarte en la fila.
+      La app te avisará cuanta gente se encuentra delante tuyo en la fila y te dará un promedio de tiempo de espera para llegar a tu turno.
+      Cuando sea tu turno te notificará y podrás ir directamente hacia la sección a hacer tu pedido.
+      ¡Que la disfrutes!
+    </description>
+
+    <author href="https://ort.edu.uy" email="siguientesiguiente@gmail.com">
+        Dario Zalovich
+        Renzo Di Giovanni
+        Federico Touya
+    </author>
+    
+    <preference name='phonegap-version' value='cli-7.1.0' />
+    <preference name='pgb-builder-version' value='2' />
+    
+    <plugin name="cordova-plugin-whitelist" spec="~1.3.3" />
+    
+    <plugin name="cordova-plugin-geolocation" spec="2.4.3" />
+    <plugin name="cordova-plugin-battery-status" spec="~2.0.2" />
+    <plugin name="cordova-plugin-vibration" spec="~3.1.0" />
+    <plugin name="cordova-plugin-device" spec="~2.0.2" />
+    <plugin name="cordova-plugin-contacts" spec="~2.3.1" />
+    <plugin name="cordova-plugin-camera" spec="~2.4.1" />
+    <plugin name="phonegap-plugin-barcodescanner" spec="~8.1.0" />
+    
+    <plugin name="cordova-plugin-splashscreen" spec="~5.0.2" />
+     
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="2000" />
+    <preference name="ShowSplashScreenSpinner" value="false"/>
+    <!--<preference name="FadeSplashScreenDuration" value="500"/>-->
+    <preference name="SplashMaintainAspectRatio" value="true" />
+    
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    
+   
+    <platform name="android">
+        <allow-intent href="market:*" />
+        
+
+        
+    </platform>
+    
+    <platform name="ios">
+        <!--
+                <splash src="splash.png"/>
+                <icon height="57" platform="ios" src="ios/icon.png" width="57" />
+                <icon height="114" platform="ios" src="ios/icon@2x.png" width="114" />
+                <icon height="40" platform="ios" src="ios/icon-40.png" width="40" />
+                <icon height="80" platform="ios" src="ios/icon-40@2x.png" width="80" />
+                <icon height="50" platform="ios" src="ios/icon-50.png" width="50" />
+                <icon height="100" platform="ios" src="ios/icon-50@2x.png" width="100" />
+                <icon height="60" platform="ios" src="ios/icon-60.png" width="60" />
+                <icon height="120" platform="ios" src="ios/icon-60@2x.png" width="120" />
+                <icon height="180" platform="ios" src="ios/icon-60@3x.png" width="180" />
+                <icon height="72" platform="ios" src="ios/icon-72.png" width="72" />
+                <icon height="144" platform="ios" src="ios/icon-72@2x.png" width="144" />
+                <icon height="76" platform="ios" src="ios/icon-76.png" width="76" />
+                <icon height="152" platform="ios" src="ios/icon-76@2x.png" width="152" />
+                <icon height="29" platform="ios" src="ios/icon-small.png" width="29" />
+                <icon height="58" platform="ios" src="ios/icon-small@2x.png" width="58" />
+                <icon height="87" platform="ios" src="ios/icon-small@3x.png" width="87" />
+                <splash height="1136" platform="ios" src="ios/Default-568h@2x~iphone.png" width="640" />
+                <splash height="1334" platform="ios" src="ios/Default-667h.png" width="750" />
+                <splash height="2208" platform="ios" src="ios/Default-736h.png" width="1242" />
+                <splash height="1242" platform="ios" src="ios/Default-Landscape-736h.png" width="2208" />
+                <splash height="1536" platform="ios" src="ios/Default-Landscape@2x~ipad.png" width="2048" />
+                <splash height="768" platform="ios" src="ios/Default-Landscape~ipad.png" width="1024" />
+                <splash height="2048" platform="ios" src="ios/Default-Portrait@2x~ipad.png" width="1536" />
+                <splash height="1024" platform="ios" src="ios/Default-Portrait~ipad.png" width="768" />
+                <splash height="960" platform="ios" src="ios/Default@2x~iphone.png" width="640" />
+                <splash height="480" platform="ios" src="ios/Default~iphone.png" width="320" />
+        -->
+        
+    </platform>
+
+</widget>
