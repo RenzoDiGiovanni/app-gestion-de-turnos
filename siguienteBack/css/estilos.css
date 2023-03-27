@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0 auto;}
+#dQR canvas{
+    margin: 3%;
+}
+.pagina{
+    margin: 5% auto;
+}
+.caja{
+    color: #328194 !important;
+    background-color: #ececec !important;
+    padding: 5px;
+    text-align: center;
+    margin: 20% auto;
+    justify-content: center;
+    align-items: center;
+}
+.button--material{
+    background-color: #489a5d !important;
+    color: white;
+    border-radius: 12px !important;
+    margin: 1vh 5px !important;
+}
+.text-input--material{
+    text-align: center;
+}
+.cancelar {
+    padding: 10px 14px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    float: left;
+    display: block;
+}
+.listasTxt{
+    font-size: 20px;
+    font-weight: 600;
+    display: block;
+    float: left;
+}
+.caja img {
+    height: 20vh;
+}
+.material-icons {
+    font-size: 28px !important;
+}
+.resta, .suma, .reset {
+    display: block;
+    float: left;
+}
+.panel {
+    float: left;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.panel .card__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.cadena {
+    font-size: 38px !important;
+    font-weight: 500 !important;
+    font-family: "Roboto", sans-serif;
+}
+.nombre {
+    font-size: 30px !important;
+    font-weight: 400 !important;
+    font-family: "Roboto", sans-serif;
+}
